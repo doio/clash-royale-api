@@ -9,9 +9,10 @@ router.get('/', (req, res) => {
       cards: 'api/cards',
       chests: 'api/chests',
       players: 'api/players',
+      leagues: 'api/leagues',
     },
-    version: '1.0.0',
-    lastUpdate: 'July 04 2016',
+    version: '1.2.0',
+    lastUpdate: 'March 21 2017',
   });
 });
 
